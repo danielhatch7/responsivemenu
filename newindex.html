@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Might want to change this title later. -->
+    <title>Just Me</title>
+    <meta name="description"
+        content="This is a website for an amazing business that definitely exists and is bringing in millions of dollars worth of revenue each minute.">
+
+    <!--styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Rowdies&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div>
+        <header class="navbar">
+            <svg class="menu-icon-svg">
+                <use href="#menu-icon" />
+            </svg>
+            <nav class="page-links">
+                <ul class="navbutton">
+                    <li><a class="current-page">Home</a></li>
+                    <li><a href="about/">About</a></li>
+                    <li><a href="form/">Form</a></li>
+                </ul>
+            </nav>
+            <div>
+                <!--<p>Potential logo</p>-->
+                <p class="space-filler">.</p>
+            </div>
+        </header>
+    </div>
+
+    <div class="hero">
+        <picture>
+            <source srcset="images/profile-1920x930.jpg" media="(min-width: 901px)">
+            <source srcset="images/profile-900x436.jpg" media="(min-width: 501px)">
+            <source srcset="images/profile-500x242.jpg" media="(max-width: 500px)">
+            <img src="images/profile-900w.jpg" alt="daniel profile">
+        </picture>
+        <div class="hero-text">
+            <h1>DANIEL HATCH</h1>
+            <p>Something Interesting</p>
+        </div>
+    </div>
+
+    <main>
+
+        <article class="panel">
+            <div class="text-wrapper left">
+                <h2 class="article-headings">All About Me</h2>
+                <p>Hi! I'm from Lindon, UT. I currently am studying computer science at BYU. I don't know what else to
+                    say
+                    about myself right now so this will be the end.</p>
+                <a class="button">Contact Me</a>
+            </div>
+
+            <div class="image-wrapper">
+                <figure>
+                    <img src="images/berries-400w.jpg" alt="berries" width="400" height="300">
+                    <figcaption>Berries</figcaption>
+                </figure>
+            </div>
+
+        </article>
+        <article class="panel">
+            <div class="text-wrapper">
+                <h2 class="article-headings">Goals and Dreams</h2>
+                <p>I have lots goals and dreams that are <em>really</em> great and have <strong>lots</strong> of
+                    potential.
+                    If I had
+                    all the time in the world then I would write about them all. I hope that one day I will be able to
+                    accomplish all of my goals and dreams.</p>
+                <a class="button">Learn More</a>
+            </div>
+            <div class="image-wrapper left">
+                <figure>
+                    <img src="images/shoesinpark-400w.jpg" alt="day in the park" width="400" height="299">
+                    <figcaption>Day in the park</figcaption>
+                </figure>
+            </div>
+        </article>
+    </main>
+
+    <aside class="home-aside">
+        <p>Here is a fancy tagline that I'm not sure what it is supposed to say.</p>
+    </aside>
+
+    <div class="cards">
+        <div class="card">
+            <a>
+                <img src="images/building-600w.jpg" width="300" height="300" alt="building">
+                <p class="overlay">Hello</p>
+            </a>
+        </div>
+        <div class="card">
+            <a>
+                <img src="images/waves-600w.jpg" width="300" height="300" alt="waves">
+                <p class="overlay">I</p>
+            </a>
+        </div>
+        <div class="card">
+            <a>
+
+                <img src="images/nyc-600w.jpg" width="300" height="300" alt="central park, NYC">
+
+                <p class="overlay">Am</p>
+            </a>
+        </div>
+        <div class="card">
+            <a>
+
+                <img src="images/castle-600w.jpg" width="300" height="300" alt="castle">
+
+                <p class="overlay">Daniel</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Here is a paragraph to go into my footer. One day it will be more professional.</p>
+    </footer>
+
+    <div class="hidden">
+        <svg>
+            <symbol id="menu-icon" viewbox="0 0 120 120" width="40px" height="40px">
+                <line x1="5%" x2="95%" y1="25%" y2="25%" stroke="#1193b2" stroke-width="10" stroke-linecap="round" />
+
+                <line x1="5%" x2="95%" y1="50%" y2="50%" stroke="#e14c06" stroke-width="10" stroke-linecap="round" />
+
+                <line x1="5%" x2="95%" y1="75%" y2="75%" stroke="#003f4f" stroke-width="10" stroke-linecap="round" />
+            </symbol>
+        </svg>
+    </div>
+</body>
+
+
+</html>
