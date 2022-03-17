@@ -6,7 +6,7 @@
 
   /*  https://smart-swatch.netlify.app/ */
   --main-color-light: #1193b2;
-  --main-color-extra-light: #30d6fd;
+  --main-color-extra-light: #30d6fdff;
   --main-color-dark: #003f4f;
 
   --viridian-green: #0a9396;
@@ -189,8 +189,8 @@ header {
   z-index: 2;
   height: 5rem;
   background-color: #f5f5f5;
-  border-bottom: 1px solid #eee;
-  opacity: 0.97;
+  border-bottom: 1px solid #ddd;
+  opacity: 1;
   position: fixed;
   top: 0;
   width: 100%;
@@ -616,6 +616,10 @@ figcaption {
 
   nav li {
     border-bottom: none;
+  }
+
+  .navbutton {
+    margin: 0 auto;
   }
 
   .page-links a {
